@@ -1,7 +1,7 @@
 
 # Dollar Blues: Predicting the Black Market Exchange Rate in Argentina through Google Search Behavior
 
-*Feburary, 2015 - This was my submission to the Data Incubator Program*
+*Feb 2015 - This was my submission to the Data Incubator Program*
 
 
 ## 1. Motivation 
@@ -73,7 +73,8 @@ Additional evidence that Google search data can be useful in predicting the Blac
 
 This note aims to be a proof-of-concept that google search behavior can be used to track and predict black market exchange rates in Argentina. 
 
-While the models used here are very simple, I argue that they can serve as a sufficient benchmark to test whether Google search information provides any additional explanatory power to our prediction of the Blue exchange rate. The performance gains in our search-augmented predictive models are modest, but an indication that further refinement of the models may be fruitful.  
+While the models used here are very simple, I argue that they can serve as a sufficient benchmark to test whether Google search information provides any additional explanatory power to our prediction of the Blue exchange rate. The performance gains in our search-augmented predictive models are modest, but an indication that further refinement of the models may be fruitful.
+
 A major drawback of this study is that due to Google trends data limitations, we are working with weekly data. This potentially could be remedied by using higher frequency data, such as daily data from the social media platform Twitter as a proxy for dollar demand in Argentina. 
 
 We are also most likely not capturing the entirety of currency-related search behavior since we are only using information for one search term. There are many different searches such as “dolar blue” and “blue cotazion hoy” that if used together, may increase the predictive power of our model. 
